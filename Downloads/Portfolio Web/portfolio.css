@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2,
+p {
+  color: #668ec7;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+
+
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 40vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,   
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  
+  display: flex;
+}
+/* color of circles &size of the circles */
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+/*position of the circles*/
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+.circle3,
+.circle4 {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+/*position of the circles*/
+.circle3 {
+  bottom: 50%;
+  right: 5%;
+  border:solid aliceblue ;
+  
+}
+
+/* spacing inside of container*/
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 2;
+ 
+}
+.dashboard1{
+ text-align: center;
+ margin-top: 10px;
+}
+/* spacing of the hobbies inside container*/
+.hobby {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+nav{
+  padding-left: 100px;
+
+    font-size: 20px;
+}
+.dashboard2 img{
+    width:50%;
+    height: 30%;
+padding: 10px;
+}
+.workSpace{
+    margin: 50px;
+    width:500%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .workSpace2{
+        margin: 50px;
+        width:500%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+        .workSpace3{
+            width:500%;
+    height: 30%;
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+    align-items: center;
+       
+        }
+        .contactInfo{
+          margin: 20px;
+          border:solid #6cdbeb;
+          background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+          opacity: 90%;
+          border-radius: 15px;
+          text-align: center;
+          width: 50%;
+       
+        }
+        .contact{
+          display: flex;
+          justify-content: center;
+         
+        }
+        .dashboard2{
+            margin: 50px;
+            display: flex;
+          flex-direction: row;
+         
+        }
+  
+        .workSpace:hover { 
+            opacity: 80%;
+          }
+          .workSpace2:hover { 
+            opacity: 80%;
+          }
+          .workSpace3:hover { 
+            opacity: 80%;
+          }
+          .title h1{
+           
+              display: flex;
+              justify-content: center;
+              flex-direction: row;
+         padding-top: 100px;
+         font-size: 60px;
+          }
+         
